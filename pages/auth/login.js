@@ -1,15 +1,36 @@
 import Head from 'next/head'
-const Login = () => {
-    return <div>
-        <Head>
-            <title>Login</title>
-            <link rel="icon" href="/favicon.ico" />
-        </Head>
+import styled from 'styled-components'
 
-        <main>
-            <h1>Login Yuk</h1>
-        </main>
+const Container = styled.div`
+        min-height: 100vh;
+        padding: 0 0.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+`;
+const Title = styled.h2`
+    color: red;
+`;
+const Login = () => (
+    <div>
+        <ul>
+  <li><a href="/">Home</a></li>
+  <li><a href="/about/">About</a></li>
+  <li><a href="/work/">Work</a></li>
+  <li><a href="/clients/">Clients</a></li>
+  <li><a href="/contact/">Contact</a></li>
+</ul>
+
+
+        <style jsx>
+            {`
+        ul { text-align: center; }
+        li { display: inline-block; }
+        
+        `}
+        </style>
     </div>
-}
+)
 
 export default Login
