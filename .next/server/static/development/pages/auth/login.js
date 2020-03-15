@@ -102,56 +102,125 @@ module.exports =
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_3__);
 var _jsxFileName = "/Users/macos/Sites/blog-next-js/pages/auth/login.js";
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
-const Login = () => {
-  return __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 3
-    },
-    __self: undefined
-  }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    },
-    __self: undefined
-  }, __jsx("title", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: undefined
-  }, "Login"), __jsx("link", {
-    rel: "icon",
-    href: "/favicon.ico",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: undefined
-  })), __jsx("main", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: undefined
-  }, __jsx("h1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: undefined
-  }, "Login Yuk")));
-};
+const Container = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.div`
+        min-height: 100vh;
+        padding: 0 0.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+`;
+const Title = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.h2`
+    color: red;
+`;
+
+const Login = () => __jsx("div", {
+  className: "jsx-3475841328",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
+  },
+  __self: undefined
+}, __jsx("ul", {
+  className: "jsx-3475841328",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17
+  },
+  __self: undefined
+}, __jsx("li", {
+  className: "jsx-3475841328",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18
+  },
+  __self: undefined
+}, __jsx("a", {
+  href: "/",
+  className: "jsx-3475841328",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18
+  },
+  __self: undefined
+}, "Home")), __jsx("li", {
+  className: "jsx-3475841328",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19
+  },
+  __self: undefined
+}, __jsx("a", {
+  href: "/about/",
+  className: "jsx-3475841328",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19
+  },
+  __self: undefined
+}, "About")), __jsx("li", {
+  className: "jsx-3475841328",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 20
+  },
+  __self: undefined
+}, __jsx("a", {
+  href: "/work/",
+  className: "jsx-3475841328",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 20
+  },
+  __self: undefined
+}, "Work")), __jsx("li", {
+  className: "jsx-3475841328",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21
+  },
+  __self: undefined
+}, __jsx("a", {
+  href: "/clients/",
+  className: "jsx-3475841328",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21
+  },
+  __self: undefined
+}, "Clients")), __jsx("li", {
+  className: "jsx-3475841328",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22
+  },
+  __self: undefined
+}, __jsx("a", {
+  href: "/contact/",
+  className: "jsx-3475841328",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22
+  },
+  __self: undefined
+}, "Contact"))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+  id: "3475841328",
+  __self: undefined
+}, "ul.jsx-3475841328{text-align:center;}li.jsx-3475841328{display:inline-block;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tYWNvcy9TaXRlcy9ibG9nLW5leHQtanMvcGFnZXMvYXV0aC9sb2dpbi5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUEwQmEsQUFFK0IsQUFDRyxrQkFERixHQUNHIiwiZmlsZSI6Ii9Vc2Vycy9tYWNvcy9TaXRlcy9ibG9nLW5leHQtanMvcGFnZXMvYXV0aC9sb2dpbi5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gJ25leHQvaGVhZCdcbmltcG9ydCBzdHlsZWQgZnJvbSAnc3R5bGVkLWNvbXBvbmVudHMnXG5cbmNvbnN0IENvbnRhaW5lciA9IHN0eWxlZC5kaXZgXG4gICAgICAgIG1pbi1oZWlnaHQ6IDEwMHZoO1xuICAgICAgICBwYWRkaW5nOiAwIDAuNXJlbTtcbiAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG5gO1xuY29uc3QgVGl0bGUgPSBzdHlsZWQuaDJgXG4gICAgY29sb3I6IHJlZDtcbmA7XG5jb25zdCBMb2dpbiA9ICgpID0+IChcbiAgICA8ZGl2PlxuICAgICAgICA8dWw+XG4gIDxsaT48YSBocmVmPVwiL1wiPkhvbWU8L2E+PC9saT5cbiAgPGxpPjxhIGhyZWY9XCIvYWJvdXQvXCI+QWJvdXQ8L2E+PC9saT5cbiAgPGxpPjxhIGhyZWY9XCIvd29yay9cIj5Xb3JrPC9hPjwvbGk+XG4gIDxsaT48YSBocmVmPVwiL2NsaWVudHMvXCI+Q2xpZW50czwvYT48L2xpPlxuICA8bGk+PGEgaHJlZj1cIi9jb250YWN0L1wiPkNvbnRhY3Q8L2E+PC9saT5cbjwvdWw+XG5cblxuICAgICAgICA8c3R5bGUganN4PlxuICAgICAgICAgICAge2BcbiAgICAgICAgdWwgeyB0ZXh0LWFsaWduOiBjZW50ZXI7IH1cbiAgICAgICAgbGkgeyBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7IH1cbiAgICAgICAgXG4gICAgICAgIGB9XG4gICAgICAgIDwvc3R5bGU+XG4gICAgPC9kaXY+XG4pXG5cbmV4cG9ydCBkZWZhdWx0IExvZ2luIl19 */\n/*@ sourceURL=/Users/macos/Sites/blog-next-js/pages/auth/login.js */"));
 
 /* harmony default export */ __webpack_exports__["default"] = (Login);
 
@@ -188,6 +257,28 @@ module.exports = require("next/head");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "styled-components":
+/*!************************************!*\
+  !*** external "styled-components" ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("styled-components");
+
+/***/ }),
+
+/***/ "styled-jsx/style":
+/*!***********************************!*\
+  !*** external "styled-jsx/style" ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("styled-jsx/style");
 
 /***/ })
 

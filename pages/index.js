@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import styled from 'styled-components'
 const Separator = styled.div`
 width: 100%;
@@ -19,7 +20,7 @@ const Home = () => (
       <li className="float-left"><a href=""><span><i class="fa fa-instagram fa-lg"></i></span></a></li>
       <li className="float-left"><a href=""><span><i class="fa fa-whatsapp fa-lg"></i></span></a></li>
       <li className="float-right"><a href=""><span><i class="fa fa-shopping-bag fa-lg"></i></span> Keranjang (0)</a></li>
-      <li className="float-right"><a href=""><span><i class="fa fa-user-o fa-lg"></i></span> Login / Daftar</a></li>
+      <li className="float-right"> <Link href="/auth/login"><a><span><i class="fa fa-user-o fa-lg"></i></span> Login / Daftar</a></Link></li>
       <li className="float-right"><a href=""><span><i class="fa fa-search fa-lg"></i></span></a></li>
     </ul>
     <div className="sub-nav">
